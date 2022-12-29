@@ -3,7 +3,7 @@ import discord
 import openai
 
 # Replace YOUR_API_KEY_HERE with your actual API key
-openai.api_key = "YOUR_OPEN_API_TOKEN"
+openai.api_key = "YOUR_API_KEY_HERE"
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -42,4 +42,4 @@ async def on_message(message):
             logging.error("Failed to generate response: response object does not have a 'choices' attribute.")
 
 # Replace YOUR_BOT_TOKEN_HERE with your actual bot token
-client.run("YOUR_DISCORD_BOT_TOKEN")
+client.run("YOUR_BOT_TOKEN_HERE")
